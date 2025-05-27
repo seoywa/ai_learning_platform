@@ -1,4 +1,4 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
+ 
 import React from "react";
 import {
   Table,
@@ -25,7 +25,7 @@ const CompanionList = ({
 }: CompanionListProps) => {
   return (
     <article className={cn("companion-list", className)}>
-      <h2 className="font-bold text-3xl">Recent Sessions</h2>
+      <h2 className="font-bold text-3xl">{title}</h2>
 
       <Table>
         <TableHeader>
