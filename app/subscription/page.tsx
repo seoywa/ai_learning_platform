@@ -4,7 +4,7 @@ import React from 'react'
 const Subscription = () => {
   return (
     <main>
-      
+      <PricingTable />
     </main>
   )
 }

@@ -1,4 +1,5 @@
 "use client";
+
 import React, { useEffect, useState } from "react";
 import {
   Select,
@@ -33,7 +34,7 @@ const SubjectFilter = () => {
     }
 
     router.push(newUrl, { scroll: false });
-  }, [subject]);
+  }, [subject, router, searchParams]);
 
   return (
     <Select onValueChange={setSubject} value={subject}>
